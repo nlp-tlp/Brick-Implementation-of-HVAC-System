@@ -1,0 +1,1176 @@
+@prefix bldg: <urn:mybuilding#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix ext: <urn:extension#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+bldg:Chilled_Water_Pump_Primary_0_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_0_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP0_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_0_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_0_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP0_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_0_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_0_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP0_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_1_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_1_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP1_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_1_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_1_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP1_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_1_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_1_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP1_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_2_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_2_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP2_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_2_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_2_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP2_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_2_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_2_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP2_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_3_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_3_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP3_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_3_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_3_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP3_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_3_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_3_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP3_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_4_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_4_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP4_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_4_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_4_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP4_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_4_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_4_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP4_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_5_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_5_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP5_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_5_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_5_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP5_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_5_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_5_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP5_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_6_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_6_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP6_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_6_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_6_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP6_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_6_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_6_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP6_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_7_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_7_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP7_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_7_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_7_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP7_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_7_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_7_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP7_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_8_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_8_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPP8_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_8_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_8_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP8_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Primary_8_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Primary_8_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Primary_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPP8_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_0_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_0_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS0_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_0_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_0_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS0_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_0_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_0_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS0_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_1_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_1_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS1_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_1_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_1_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS1_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_1_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_1_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS1_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_2_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_2_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS2_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_2_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_2_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS2_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_2_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_2_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS2_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_3_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_3_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS3_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_3_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_3_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS3_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_3_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_3_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS3_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_4_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_4_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS4_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_4_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_4_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS4_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_4_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_4_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS4_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_5_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_5_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS5_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_5_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_5_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS5_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_5_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_5_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS5_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_6_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_6_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS6_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_6_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_6_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS6_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_6_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_6_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS6_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_7_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_7_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS7_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_7_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_7_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS7_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_7_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_7_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS7_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_8_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_8_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWPS8_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_8_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_8_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS8_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Pump_Secondary_8_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chilled_Water_Pump_Secondary_8_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chilled_Water_Pump_Secondary_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWPS8_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Return_Header_1_Temperature_Sensor a brick:Temperature_Sensor ;
+    rdfs:label "Chilled_Water_Return_Header_1_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chilled_Water_Return_Header_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWR_HDR1_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Return_Header_2_Temperature_Sensor a brick:Temperature_Sensor ;
+    rdfs:label "Chilled_Water_Return_Header_2_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chilled_Water_Return_Header_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWR_HDR2_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Supply_Header_1_Pressure_Sensor a brick:Pressure_Sensor ;
+    rdfs:label "Chilled_Water_Supply_Header_1_Pressure_Sensor" ;
+    brick:hasUnit unit:PSI ;
+    brick:isPointOf bldg:Chilled_Water_Supply_Header_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWR_HDR1_P" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chilled_Water_Supply_Header_2_Pressure_Sensor a brick:Pressure_Sensor ;
+    rdfs:label "Chilled_Water_Supply_Header_2_Pressure_Sensor" ;
+    brick:hasUnit unit:PSI ;
+    brick:isPointOf bldg:Chilled_Water_Supply_Header_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CHWR_HDR2_P" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_0_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_0_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH0_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_0_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_0_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH0_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_1_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_1_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH1_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_1_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_1_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH1_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_2_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_2_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH2_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_2_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_2_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH2_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_3_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_3_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH3_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_3_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_3_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH3_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_4_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_4_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH4_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_4_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_4_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH4_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_5_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_5_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH5_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_5_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_5_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH5_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_6_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_6_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH6_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_6_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_6_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH6_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_7_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Chiller_7_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Chiller_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH7_PWR" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Chiller_7_Status a brick:On_Off_Status ;
+    rdfs:label "Chiller_7_Status" ;
+    brick:hasUnit unit:UNITLESS ;
+    brick:isPointOf bldg:Chiller_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH7_STS" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_0_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_0_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH0_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_0_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_0_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_0 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH0_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_1_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_1_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH1_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_1_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_1_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH1_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_2_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_2_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH2_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_2_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_2_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH2_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_3_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_3_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH3_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_3_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_3_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH3_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_4_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_4_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH4_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_4_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_4_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH4_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_5_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_5_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH5_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_5_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_5_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH5_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_6_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_6_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH6_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_6_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_6_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH6_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_7_Water_Flow_Sensor a brick:Water_Flow_Sensor ;
+    rdfs:label "Condenser_7_Water_Flow_Sensor" ;
+    brick:hasUnit unit:L-PER-SEC ;
+    brick:isPointOf bldg:Chiller_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDW_CH7_F" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_7_Water_Return_Temperature_Sensor a brick:Return_Condenser_Water_Temperature_Sensor ;
+    rdfs:label "Condenser_7_Water_Return_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Chiller_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_CH7_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_1_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_1_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_1_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP0_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_1_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_1_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP0_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_1_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_1_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH1_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_2_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_2_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_2_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP1_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_2_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_2_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP1_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_2_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_2_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH2_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_3_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_3_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_3_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP2_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_3_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_3_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP2_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_3_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_3_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH3_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_4_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_4_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_4_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP3_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_4_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_4_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP3_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_4_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_4_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH4_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_5_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_5_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_5_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP4_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_5_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_5_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP4_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_5_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_5_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH5_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_6_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_6_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_6_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP5_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_6_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_6_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP5_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_6_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_6_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH6_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_7_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_7_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_7_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP6_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_7_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_7_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP6_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_7_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_7_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH7_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_8_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Condenser_Water_Pump_8_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_8_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP7_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_8_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_8_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Condenser_Water_Pump_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWP7_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Pump_8_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Condenser_Water_Pump_8_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Condenser_Water_Pump_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CH8_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Return_Header_Pressure_Sensor a brick:Pressure_Sensor ;
+    rdfs:label "Condenser_Water_Return_Header_Pressure_Sensor" ;
+    brick:hasUnit unit:PSI ;
+    brick:isPointOf bldg:Condenser_Water_Return_Header ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_HDR_P" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Return_Header_Temperature_Sensor a brick:Temperature_Sensor ;
+    rdfs:label "Condenser_Water_Return_Header_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Condenser_Water_Return_Header ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWR_HDR_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Supply_Header_Pressure_Sensor a brick:Pressure_Sensor ;
+    rdfs:label "Condenser_Water_Supply_Header_Pressure_Sensor" ;
+    brick:hasUnit unit:PSI ;
+    brick:isPointOf bldg:Condenser_Water_Supply_Header ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWS_HDR_P" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Condenser_Water_Supply_Header_Temperature_Sensor a brick:Temperature_Sensor ;
+    rdfs:label "Condenser_Water_Supply_Header_Temperature_Sensor" ;
+    brick:hasUnit unit:DEG_C ;
+    brick:isPointOf bldg:Condenser_Water_Supply_Header ;
+    brick:timeseries [ brick:hasTimeseriesId "CDWS_HDR_T" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_1_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_1_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_1_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT1_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_1_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_1_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT0_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_1_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_1_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_1 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT0_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_2_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_2_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_2_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT2_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_2_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_2_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT1_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_2_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_2_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_2 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT1_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_3_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_3_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_3_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT3_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_3_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_3_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT2_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_3_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_3_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_3 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT2_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_4_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_4_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_4_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT4_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_4_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_4_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT3_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_4_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_4_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_4 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT3_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_5_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_5_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_5_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT5_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_5_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_5_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT4_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_5_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_5_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_5 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT4_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_6_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_6_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_6_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT6_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_6_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_6_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT5_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_6_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_6_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_6 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT5_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_7_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_7_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_7_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT7_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_7_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_7_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT6_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_7_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_7_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_7 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT6_KW" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_8_Fan_VSD_Frequency_Sensor a brick:Frequency_Sensor ;
+    rdfs:label "Cooling_Tower_8_Fan_VSD_Frequency_Sensor" ;
+    brick:hasUnit unit:HZ ;
+    brick:isPointOf bldg:Cooling_Tower_8_Fan ;
+    brick:timeseries [ brick:hasTimeseriesId "CT8_HZ" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_8_Power_Consumption_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_8_Power_Consumption_Sensor" ;
+    brick:hasUnit unit:KiloW-HR ;
+    brick:isPointOf bldg:Cooling_Tower_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT7_KWH" ;
+            brick:storedAt bldg:db ] .
+
+bldg:Cooling_Tower_8_Power_Sensor a brick:Electrical_Power_Sensor ;
+    rdfs:label "Cooling_Tower_8_Power_Sensor" ;
+    brick:hasUnit unit:KiloW ;
+    brick:isPointOf bldg:Cooling_Tower_8 ;
+    brick:timeseries [ brick:hasTimeseriesId "CT7_KW" ;
+            brick:storedAt bldg:db ] .
+
+ext:Connecting_Pipe rdfs:subClassOf brick:HVAC_Equipment .
+
+bldg:Chilled_Water_Return_Header_1 a ext:Header ;
+    rdfs:label "Chilled_Water_Return_Header_1" .
+
+bldg:Chilled_Water_Return_Header_2 a ext:Header ;
+    rdfs:label "Chilled_Water_Return_Header_2" .
+
+bldg:Chilled_Water_Supply_Header_1 a ext:Header ;
+    rdfs:label "Chilled_Water_Supply_Header_1" .
+
+bldg:Chilled_Water_Supply_Header_2 a ext:Header ;
+    rdfs:label "Chilled_Water_Supply_Header_2" .
+
+bldg:Condenser_Water_Pump_1 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_1" .
+
+bldg:Condenser_Water_Pump_2 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_2" .
+
+bldg:Condenser_Water_Pump_3 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_3" .
+
+bldg:Condenser_Water_Pump_4 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_4" .
+
+bldg:Condenser_Water_Pump_5 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_5" .
+
+bldg:Condenser_Water_Pump_6 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_6" .
+
+bldg:Condenser_Water_Pump_7 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_7" .
+
+bldg:Condenser_Water_Pump_8 a brick:Condenser_Water_Pump ;
+    rdfs:label "Condenser_Water_Pump_8" .
+
+bldg:Condenser_Water_Return_Header a ext:Header ;
+    rdfs:label "Condenser_Water_Return_Header" .
+
+bldg:Condenser_Water_Supply_Header a ext:Header ;
+    rdfs:label "Condenser_Water_Supply_Header" .
+
+bldg:Cooling_Tower_1 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_1" .
+
+bldg:Cooling_Tower_1_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_1_Fan" .
+
+bldg:Cooling_Tower_2 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_2" .
+
+bldg:Cooling_Tower_2_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_2_Fan" .
+
+bldg:Cooling_Tower_3 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_3" .
+
+bldg:Cooling_Tower_3_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_3_Fan" .
+
+bldg:Cooling_Tower_4 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_4" .
+
+bldg:Cooling_Tower_4_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_4_Fan" .
+
+bldg:Cooling_Tower_5 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_5" .
+
+bldg:Cooling_Tower_5_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_5_Fan" .
+
+bldg:Cooling_Tower_6 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_6" .
+
+bldg:Cooling_Tower_6_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_6_Fan" .
+
+bldg:Cooling_Tower_7 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_7" .
+
+bldg:Cooling_Tower_7_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_7_Fan" .
+
+bldg:Cooling_Tower_8 a brick:Cooling_Tower ;
+    rdfs:label "Cooling_Tower_8" .
+
+bldg:Cooling_Tower_8_Fan a brick:Cooling_Tower_Fan ;
+    rdfs:label "Cooling_Tower_8_Fan" .
+
+bldg:Chilled_Water_Pump_Primary_0 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_0" .
+
+bldg:Chilled_Water_Pump_Primary_1 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_1" .
+
+bldg:Chilled_Water_Pump_Primary_2 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_2" .
+
+bldg:Chilled_Water_Pump_Primary_3 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_3" .
+
+bldg:Chilled_Water_Pump_Primary_4 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_4" .
+
+bldg:Chilled_Water_Pump_Primary_5 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_5" .
+
+bldg:Chilled_Water_Pump_Primary_6 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_6" .
+
+bldg:Chilled_Water_Pump_Primary_7 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_7" .
+
+bldg:Chilled_Water_Pump_Primary_8 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Primary_8" .
+
+bldg:Chilled_Water_Pump_Secondary_0 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_0" .
+
+bldg:Chilled_Water_Pump_Secondary_1 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_1" .
+
+bldg:Chilled_Water_Pump_Secondary_2 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_2" .
+
+bldg:Chilled_Water_Pump_Secondary_3 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_3" .
+
+bldg:Chilled_Water_Pump_Secondary_4 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_4" .
+
+bldg:Chilled_Water_Pump_Secondary_5 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_5" .
+
+bldg:Chilled_Water_Pump_Secondary_6 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_6" .
+
+bldg:Chilled_Water_Pump_Secondary_7 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_7" .
+
+bldg:Chilled_Water_Pump_Secondary_8 a brick:Chilled_Water_Pump ;
+    rdfs:label "Chilled_Water_Pump_Secondary_8" .
+
+bldg:Chiller_0 a brick:Chiller ;
+    rdfs:label "Chiller_0" .
+
+bldg:Chiller_1 a brick:Chiller ;
+    rdfs:label "Chiller_1" .
+
+bldg:Chiller_2 a brick:Chiller ;
+    rdfs:label "Chiller_2" .
+
+bldg:Chiller_3 a brick:Chiller ;
+    rdfs:label "Chiller_3" .
+
+bldg:Chiller_4 a brick:Chiller ;
+    rdfs:label "Chiller_4" .
+
+bldg:Chiller_5 a brick:Chiller ;
+    rdfs:label "Chiller_5" .
+
+bldg:Chiller_6 a brick:Chiller ;
+    rdfs:label "Chiller_6" .
+
+bldg:Chiller_7 a brick:Chiller ;
+    rdfs:label "Chiller_7" .
+
+ext:Header rdfs:subClassOf ext:Connecting_Pipe .
+
+bldg:db a brick:Database ;
+    rdfs:label "Location of Timeseries Storage" ;
+    brick:connString "./csv_files/example_timeseries.csv" .
+

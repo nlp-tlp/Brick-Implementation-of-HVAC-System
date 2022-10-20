@@ -1,0 +1,14 @@
+name: brick_env
+channels: 
+- conda-forge 
+dependencies:
+- python
+- numpy 
+- pandas
+- scipy
+- matplotlib
+- rdflib
+- ipykernel
+- pip
+- pip:
+    - brickschema[all]

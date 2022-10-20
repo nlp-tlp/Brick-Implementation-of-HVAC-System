@@ -1,0 +1,8 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix ext: <urn:extension#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ext:Header rdfs:subClassOf ext:Connecting_Pipe .
+
+ext:Connecting_Pipe rdfs:subClassOf brick:HVAC_Equipment .
+
