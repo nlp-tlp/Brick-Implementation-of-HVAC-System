@@ -1,7 +1,7 @@
 import brickschema
 
 #################################################################################
-# Perform Reasoning on Brick model
+# Performing Reasoning on aBrick model
 #################################################################################
 
 # The Brick model to compile

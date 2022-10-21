@@ -3,7 +3,7 @@ from brickschema.namespaces import BRICK, RDFS
 from rdflib import Namespace
 
 #################################################################################
-# Extensions to the Brick ontology 
+# Extending to the Brick ontology 
 #################################################################################
 
 # A graph to hold the model

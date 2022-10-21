@@ -4,7 +4,7 @@ from rdflib import Namespace, Literal
 import pandas as pd
 
 #################################################################################
-# Create a Brick model
+# Creating the Brick model
 #################################################################################
 
 def create_brick(model_path, timeseries_path, output_filename):
