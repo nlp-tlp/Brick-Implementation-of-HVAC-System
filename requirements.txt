@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+matplotlib
+rdflib
+ipykernel
+brickschema[all]
