@@ -20,4 +20,4 @@ g.bind("rdfs", RDFS)
 g.add((EXT['Connecting_Pipe'], RDFS.subClassOf, BRICK["HVAC_Equipment"]))
 g.add((EXT['Header'], RDFS.subClassOf, EXT['Connecting_Pipe']))
 
-g.serialize("./brick_model/ttl_files/brick_extension.ttl", format="ttl")
+g.serialize("./ttl_files/brick_extension.ttl", format="ttl")
