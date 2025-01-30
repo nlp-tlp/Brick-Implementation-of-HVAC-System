@@ -14,7 +14,7 @@ def create_brick(model_path, timeseries_path, output_filename):
     Output: saves a file by filename given
     """
 
-    g = brickschema.Graph().load_file("./brick_model/ttl_files/brick_extension.ttl")
+    g = brickschema.Graph().load_file("./ttl_files/brick_extension.ttl")
 
     EXT = Namespace('urn:extension#')
     BLDG = Namespace("urn:mybuilding#")
@@ -58,9 +58,9 @@ def create_brick(model_path, timeseries_path, output_filename):
 
     # save file
     print('Finished. Brick model created and saved to ttl_files folder.')
-    g.serialize(f"./brick_model/ttl_files/{output_filename}.ttl", format="ttl")
+    g.serialize(f"./ttl_files/{output_filename}.ttl", format="ttl")
 
-model_path = './brick_model/csv_files/example_metadata.csv'
+model_path = './csv_files/example_metadata.csv'
 timeseries_path = './csv_files/example_timeseries.csv'
 output_filename = 'example_bldg'
 
